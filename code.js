@@ -14,7 +14,7 @@ function pageini(){
         var gbut = $("<button>");
        
         gbut.attr("name",initgif[i]);
-        gbut.addClass("btn btn-success gif-but");
+        gbut.addClass("btn btn-warning gif-but");
         gbut.append("",initgif[i]);
         console.log(gbut);
         
