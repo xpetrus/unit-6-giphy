@@ -36,7 +36,7 @@ $("#submit-gif").on("click", function(){
 
     var ubut = $("<button>");
     
-    ubut.addClass("btn btn-success gif-but");
+    ubut.addClass("btn btn-warning gif-but");
     ubut.attr("name", uinput);
     ubut.append("",uinput);
     $("#result-but").append(ubut);
